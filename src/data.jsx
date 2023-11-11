@@ -8,6 +8,7 @@ export const contact = [
   {
     icon: <FontAwesomeIcon icon={faPhone} />,
     text: "+49 176 34691191",
+    href: "tel:4917634691191",
   },
   {
     icon: <FontAwesomeIcon icon={faEnvelope} />,

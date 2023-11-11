@@ -7,7 +7,7 @@ import Side from "./components/Side";
 export default function App() {
   return (
     <>
-      <div className="container mt-3">
+      <div className="container mt-3 bg-light">
         <Header />
         <br />
         <About />

@@ -13,7 +13,10 @@ export default function Welcome() {
           <div className="col">
             {contact.map((item) => (
               <p className="mb-1">
-                {item.icon} {item.text}
+                {item.icon}{" "}
+                <a className="link-dark" href={item.href} target="_blank">
+                  {item.text}
+                </a>
               </p>
             ))}
           </div>
