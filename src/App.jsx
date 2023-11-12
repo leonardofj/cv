@@ -1,26 +1,22 @@
-import Header from "./components/Header";
-import About from "./components/About";
-import Education from "./components/Education";
-import Experience from "./components/Experience";
-import Side from "./components/Side";
+import CV from "./components/CV";
+import React, { useRef } from "react";
+import { useReactToPrint } from "react-to-print";
+import "./css/style.css";
 
 export default function App() {
+  const componentRef = useRef();
+  const handlePrint = useReactToPrint({
+    content: () => componentRef.current,
+  });
+
   return (
     <>
-      <div className="container mt-3 bg-light">
-        <Header />
-        <br />
-        <About />
-        <br />
-        <Education />
-        <br />
-        <div className="container">
-          <div className="row">
-            <Experience />
-            <Side />
-          </div>
-        </div>
+      <div className="navbar d-flex justify-content-end">
+        <button className="rounded-2 me-2" onClick={handlePrint}>
+          Print me
+        </button>
       </div>
+      <CV ref={componentRef} />
     </>
   );
 }

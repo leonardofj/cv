@@ -3,13 +3,13 @@ import { education } from "../data";
 export default function Education() {
   return (
     <>
-      <div className="container border-bottom  border-dark">
-        <h2 className="text-uppercase fs-1">Education</h2>
-        <div className="row">
+      <div className="border-bottom  border-dark mt-1">
+        <h3 className="text-uppercase ">Education</h3>
+        <div className="d-flex justify-content-between">
           {education.map((item) => (
-            <div className="col">
-              <h4>{item.title}</h4>
-              <p>{item.institution}</p>
+            <div>
+              <h6 className="fw-bold lh-1">{item.title}</h6>
+              <p className="lh-1 mb-2">{item.institution}</p>
             </div>
           ))}
         </div>

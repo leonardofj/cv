@@ -4,10 +4,10 @@ export default function Others() {
   return (
     <>
       <div className="">
-        <h2 className="text-uppercase">Others</h2>
-        <ul>
+        <h3 className="text-uppercase">Others</h3>
+        <ul className="ps-3 mb-1">
           {others.map((item) => (
-            <li>{item}</li>
+            <li className="lh-sm">{item}</li>
           ))}
         </ul>
       </div>
