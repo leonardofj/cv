@@ -98,7 +98,7 @@ export const experience = [
     ],
   },
   {
-    title: "Software Developer and Data Scientist",
+    title: "Software Developer",
     date: "Dec 2012 - May 2016",
     company: "Digesto Pesquisa e Banco de Dados",
     location: "São Paulo, Brazil",

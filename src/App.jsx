@@ -7,18 +7,13 @@ import Side from "./components/Side";
 export default function App() {
   return (
     <>
-      <div className="container mt-3 bg-light">
+      <div className="container mt-3 bg-light" style={{ width: "700px" }}>
         <Header />
-        <br />
         <About />
-        <br />
         <Education />
-        <br />
-        <div className="container">
-          <div className="row">
-            <Experience />
-            <Side />
-          </div>
+        <div className="row mt-2">
+          <Experience />
+          <Side />
         </div>
       </div>
     </>

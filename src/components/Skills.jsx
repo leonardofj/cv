@@ -4,10 +4,10 @@ export default function Skills() {
   return (
     <>
       <div className="">
-        <h2 className="text-uppercase">Skills</h2>
-        <ul>
+        <h3 className="text-uppercase">Skills</h3>
+        <ul className="ps-3 mb-1">
           {skills.map((item) => (
-            <li>{item.join(", ")}</li>
+            <li className="lh-sm">{item.join(", ")}</li>
           ))}
         </ul>
       </div>

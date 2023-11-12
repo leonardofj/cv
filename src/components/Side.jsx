@@ -5,7 +5,7 @@ import Others from "./Others";
 export default function Side() {
   return (
     <>
-      <div className="col ms-2">
+      <div className="col ">
         <Skills />
         <Languages />
         <Others />
