@@ -12,8 +12,8 @@ export default function App() {
         <About />
         <Education />
         <div className="row mt-2">
-          <Experience />
           <Side />
+          <Experience />
         </div>
       </div>
     </>
