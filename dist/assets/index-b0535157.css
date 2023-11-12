@@ -1,4 +1,4 @@
-@charset "UTF-8";/*!
+@charset "UTF-8";#root{background:#f4f3ee;margin:0}.navbar{background:#00243d}button{background:#ffba08;padding:10px 18px;color:#600;font:600 14px Poppins,sans-serif}button:hover{background-color:#600;color:#ffba08}/*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
