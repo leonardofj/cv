@@ -7,6 +7,8 @@ export default function App() {
   const componentRef = useRef();
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
+    copyStyles: true,
+    pageStyle: ".print-component { background-color: transparent; }",
   });
 
   return (
