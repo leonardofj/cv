@@ -7,7 +7,7 @@ import Side from "./Side";
 
 const CV = React.forwardRef((props, ref) => {
   return (
-    <div ref={ref} className="container mt-3 print-area">
+    <div ref={ref} className="container print-area">
       <Header />
       <About />
       <Education />

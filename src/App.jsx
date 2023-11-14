@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <>
-      <div className="navbar d-flex justify-content-end">
+      <div className="navbar d-flex justify-content-end p-1">
         <button className="rounded-2 me-2" onClick={handlePrint}>
           Print me
         </button>
