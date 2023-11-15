@@ -25,18 +25,11 @@ export const contact = [
 export const description =
   "Highly motivated developer and engineer with almost 10 years of experience. Blends an engineering background with software development to bring innovative and creative solutions. Always willing to learn, share knowledge and create. Experience includes planning, designing and implementing solutions on backend, data structures and ETL pipelines. An enthusiastic team player with strong problem-solving and analytical skills.";
 
-export const education = [
-  {
-    title: "Bachelor in Mechanical Engineering, major in Mechatronics",
-    institution: "Escola Politécnica da Universidade de São Paulo (USP)",
-    date: 2010,
-  },
-  {
-    title: "Industrial Training Course as Automation Technician",
-    institution: "CEFET-SP",
-    date: 2004,
-  },
-];
+export const education = {
+  title: "Bachelor in Mechanical Engineering, major in Mechatronics",
+  institution: "Escola Politécnica da Universidade de São Paulo (USP)",
+  date: 2009,
+};
 
 export const languages = [
   {
@@ -90,7 +83,7 @@ export const experience = [
   },
   {
     title: "Freelance Developer and Translator",
-    date: "Jun 2016 - Jun 2018",
+    date: "Aug 2015 - May 2018",
     points: [
       "Implemented a freelance business, negotiating and dealing with different clients.",
       "Writing Python scripts to mine and parse different sets of unstructured data according to the clients' demands, designing databases and creating MySQL queries for different projects, formulating creative solutions to achieve their goals.",
@@ -99,7 +92,7 @@ export const experience = [
   },
   {
     title: "Software Developer",
-    date: "Dec 2012 - May 2016",
+    date: "Mar 2012 - Aug 2015",
     company: "Digesto Pesquisa e Banco de Dados",
     location: "São Paulo, Brazil",
     points: [
