@@ -3,8 +3,8 @@ import { experience } from "../data";
 export default function Experience() {
   return (
     <>
-      <div className="col-8 border-start border-dark pe-3">
-        <h3 className="text-uppercase ">Relevant Experience</h3>
+      <div className="col-8 pe-4">
+        <h3 className="text-uppercase blue-text">Relevant Experience</h3>
         {experience.map((item) => (
           <div>
             <div className="d-flex justify-content-between">

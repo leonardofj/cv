@@ -1,10 +1,18 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faPhone,
+  faLocationDot,
+} from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export const fullName = "Leonardo de Jesus";
 
 export const contact = [
+  {
+    icon: <FontAwesomeIcon icon={faLocationDot} />,
+    text: "Berlin, Germany",
+  },
   {
     icon: <FontAwesomeIcon icon={faPhone} />,
     text: "+49 176 34691191",
@@ -17,7 +25,7 @@ export const contact = [
   },
   {
     icon: <FontAwesomeIcon icon={faLinkedin} />,
-    text: "LinkedIn profile",
+    text: "linkedin.com/in/leonardo-jesus",
     href: "http://linkedin.com/in/leonardo-jesus",
   },
 ];
@@ -73,7 +81,7 @@ export const experience = [
     company: "delphai",
     location: "Berlin, Germany",
     points: [
-      "Designed, implemented and administrated MongoDB database for storing companies data.",
+      "Designed, implemented and administrated MongoDB database for storing company data.",
       "Implemented Django interface to perform CRUD operations on the database, allowing the analysts to interact with the data.",
       "Handled ingestion and management of data from multiple sources.",
       "Participated on the migration of the system to microservices architecture, conceptualizing and implementing backend services, collaborating with frontend developers and devops.",

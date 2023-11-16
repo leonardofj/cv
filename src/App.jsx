@@ -13,9 +13,9 @@ export default function App() {
 
   return (
     <>
-      <div className="navbar d-flex justify-content-end p-1">
-        <button className="rounded-2 me-2" onClick={handlePrint}>
-          Print me
+      <div className="container navbar  p-1">
+        <button className="rounded-2 ms-2" onClick={handlePrint}>
+          Printable version
         </button>
       </div>
       <CV ref={componentRef} />
