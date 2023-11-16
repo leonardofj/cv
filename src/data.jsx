@@ -1,23 +1,31 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faPhone,
+  faLocationDot,
+} from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export const fullName = "Leonardo de Jesus";
 
 export const contact = [
   {
-    icon: <FontAwesomeIcon icon={faPhone} />,
-    text: "+49 176 34691191",
-    href: "tel:4917634691191",
-  },
-  {
     icon: <FontAwesomeIcon icon={faEnvelope} />,
     text: "leonardofj@gmail.com",
     href: "mailto:leonardofj@gmail.com",
   },
   {
+    icon: <FontAwesomeIcon icon={faLocationDot} />,
+    text: "Berlin, Germany",
+  },
+  {
+    icon: <FontAwesomeIcon icon={faPhone} />,
+    text: "+49 176 34691191",
+    href: "tel:4917634691191",
+  },
+  {
     icon: <FontAwesomeIcon icon={faLinkedin} />,
-    text: "LinkedIn profile",
+    text: "linkedin.com/in/leonardo-jesus",
     href: "http://linkedin.com/in/leonardo-jesus",
   },
 ];
@@ -25,18 +33,11 @@ export const contact = [
 export const description =
   "Highly motivated developer and engineer with almost 10 years of experience. Blends an engineering background with software development to bring innovative and creative solutions. Always willing to learn, share knowledge and create. Experience includes planning, designing and implementing solutions on backend, data structures and ETL pipelines. An enthusiastic team player with strong problem-solving and analytical skills.";
 
-export const education = [
-  {
-    title: "Bachelor in Mechanical Engineering, major in Mechatronics",
-    institution: "Escola Politécnica da Universidade de São Paulo (USP)",
-    date: 2010,
-  },
-  {
-    title: "Industrial Training Course as Automation Technician",
-    institution: "CEFET-SP",
-    date: 2004,
-  },
-];
+export const education = {
+  title: "Bachelor in Mechanical Engineering, major in Mechatronics",
+  institution: "Escola Politécnica da Universidade de São Paulo (USP)",
+  date: 2009,
+};
 
 export const languages = [
   {
@@ -58,18 +59,18 @@ export const languages = [
 ];
 
 export const skills = [
-  ["Python", "Flask", "Django", "Shell Script", "gRPC", "FastAPI"],
-  ["MongoDB", "PostgreSQL", "MySQL"],
+  ["Python", "Flask", "Django", "gRPC", "FastAPI"],
+  ["MongoDB", "PostgreSQL"],
   ["RabbitMQ", "Kafka", "Celery"],
-  ["Docker", "Kubernetes", "DigitalOcean", "Azure"],
+  ["Docker", "DigitalOcean", "Azure"],
   ["Linux", "Git", "Trello", "Jira", "Scrum"],
-  ["Data structures", "ETL pipelines", "microservices architecture"],
-  ["Basic JavaScript", "TypeScript", "HTML and CSS"],
+  ["Data structures", "ETL pipelines", "Microservices"],
+  ["JavaScript", "TypeScript", "HTML and CSS"],
   [
     "Critical thinking",
-    "problem solving",
-    "creative thinking",
-    "project scoping",
+    "Problem solving",
+    "Creative thinking",
+    "Project scoping",
   ],
 ];
 
@@ -80,7 +81,7 @@ export const experience = [
     company: "delphai",
     location: "Berlin, Germany",
     points: [
-      "Designed, implemented and administrated MongoDB database for storing companies data.",
+      "Designed, implemented and administrated MongoDB database for storing company data.",
       "Implemented Django interface to perform CRUD operations on the database, allowing the analysts to interact with the data.",
       "Handled ingestion and management of data from multiple sources.",
       "Participated on the migration of the system to microservices architecture, conceptualizing and implementing backend services, collaborating with frontend developers and devops.",
@@ -90,7 +91,7 @@ export const experience = [
   },
   {
     title: "Freelance Developer and Translator",
-    date: "Jun 2016 - Jun 2018",
+    date: "Aug 2015 - May 2018",
     points: [
       "Implemented a freelance business, negotiating and dealing with different clients.",
       "Writing Python scripts to mine and parse different sets of unstructured data according to the clients' demands, designing databases and creating MySQL queries for different projects, formulating creative solutions to achieve their goals.",
@@ -99,7 +100,7 @@ export const experience = [
   },
   {
     title: "Software Developer",
-    date: "Dec 2012 - May 2016",
+    date: "Mar 2012 - Aug 2015",
     company: "Digesto Pesquisa e Banco de Dados",
     location: "São Paulo, Brazil",
     points: [
