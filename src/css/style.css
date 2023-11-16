@@ -83,4 +83,9 @@ button:hover {
   .dark-blue {
     background: white;
   }
+  .badge {
+    padding: 2px 4px !important;
+    outline: 1px solid gray;
+    outline-offset: -1px;
+  }
 }

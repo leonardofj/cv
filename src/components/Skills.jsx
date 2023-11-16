@@ -4,11 +4,13 @@ export default function Skills() {
   return (
     <>
       <h3 className="text-uppercase blue-text">Skills</h3>
-      <ul className="ps-3 mb-1">
-        {skills.map((item) => (
-          <li className="lh-sm">{item.join(", ")}</li>
-        ))}
-      </ul>
+      <div className="mb-2">
+        {skills.map((category) =>
+          category.map((item) => (
+            <span className="badge dark-blue light-text me-1">{item}</span>
+          ))
+        )}
+      </div>
     </>
   );
 }

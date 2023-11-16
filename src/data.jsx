@@ -10,6 +10,11 @@ export const fullName = "Leonardo de Jesus";
 
 export const contact = [
   {
+    icon: <FontAwesomeIcon icon={faEnvelope} />,
+    text: "leonardofj@gmail.com",
+    href: "mailto:leonardofj@gmail.com",
+  },
+  {
     icon: <FontAwesomeIcon icon={faLocationDot} />,
     text: "Berlin, Germany",
   },
@@ -17,11 +22,6 @@ export const contact = [
     icon: <FontAwesomeIcon icon={faPhone} />,
     text: "+49 176 34691191",
     href: "tel:4917634691191",
-  },
-  {
-    icon: <FontAwesomeIcon icon={faEnvelope} />,
-    text: "leonardofj@gmail.com",
-    href: "mailto:leonardofj@gmail.com",
   },
   {
     icon: <FontAwesomeIcon icon={faLinkedin} />,
@@ -59,18 +59,18 @@ export const languages = [
 ];
 
 export const skills = [
-  ["Python", "Flask", "Django", "Shell Script", "gRPC", "FastAPI"],
-  ["MongoDB", "PostgreSQL", "MySQL"],
+  ["Python", "Flask", "Django", "gRPC", "FastAPI"],
+  ["MongoDB", "PostgreSQL"],
   ["RabbitMQ", "Kafka", "Celery"],
-  ["Docker", "Kubernetes", "DigitalOcean", "Azure"],
+  ["Docker", "DigitalOcean", "Azure"],
   ["Linux", "Git", "Trello", "Jira", "Scrum"],
-  ["Data structures", "ETL pipelines", "microservices architecture"],
-  ["Basic JavaScript", "TypeScript", "HTML and CSS"],
+  ["Data structures", "ETL pipelines", "Microservices"],
+  ["JavaScript", "TypeScript", "HTML and CSS"],
   [
     "Critical thinking",
-    "problem solving",
-    "creative thinking",
-    "project scoping",
+    "Problem solving",
+    "Creative thinking",
+    "Project scoping",
   ],
 ];
 
