@@ -3,7 +3,7 @@ import { experience } from "../data";
 export default function Experience() {
   return (
     <>
-      <div className="col-8 pe-4">
+      <div className="col-md-8 py-1 me-1">
         <h3 className="text-uppercase blue-text">Relevant Experience</h3>
         {experience.map((item) => (
           <div>

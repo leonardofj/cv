@@ -6,7 +6,7 @@ import Contacts from "./Contacts";
 export default function Welcome() {
   return (
     <>
-      <div className="d-flex justify-content-between align-items-center pt-3 px-3 dark-blue">
+      <div className="d-md-flex justify-content-between align-items-center pt-3 px-3 dark-blue">
         <div>
           <h1
             className="text-uppercase lh-1 mb-0 light-text rounded-3"

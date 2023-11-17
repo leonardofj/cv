@@ -3,7 +3,7 @@ import { contact } from "../data";
 export default function Contacts() {
   return (
     <>
-      <div className="d-flex justify-content-between align-items-center p-3 dark">
+      <div className="d-md-flex justify-content-between align-items-center p-3 dark">
         {contact.map((item) => (
           <p className="mb-1 lh-1 yellow">
             {item.icon}

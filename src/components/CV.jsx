@@ -5,11 +5,13 @@ import Side from "./Side";
 
 const CV = React.forwardRef((props, ref) => {
   return (
-    <div ref={ref} className="container print-area p-0">
+    <div ref={ref} className="container-md print-area p-0">
       <Header />
-      <div className="row mt-2">
-        <Side />
-        <Experience />
+      <div className="container px-0">
+        <div className="row gx-4 mt-2 mx-0">
+          <Side />
+          <Experience />
+        </div>
       </div>
     </div>
   );
