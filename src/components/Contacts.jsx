@@ -8,11 +8,7 @@ export default function Contacts() {
           <p className="mb-1 lh-1 yellow">
             {item.icon}
             {item.href ? (
-              <a
-                className="yellow ms-2 text-decoration-none"
-                href={item.href}
-                target="_blank"
-              >
+              <a className="yellow ms-2 link" href={item.href} target="_blank">
                 {item.text}
               </a>
             ) : (

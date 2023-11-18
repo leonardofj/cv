@@ -38,6 +38,14 @@
   background: var(--dark-blue);
 }
 
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
 button {
   background: var(--yellow);
   padding: 8px 18px 8px 18px;
