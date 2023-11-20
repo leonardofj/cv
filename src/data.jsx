@@ -1,9 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faEnvelope,
-  faPhone,
-  faLocationDot,
-} from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export const fullName = "Leonardo de Jesus";
@@ -17,11 +13,6 @@ export const contact = [
   {
     icon: <FontAwesomeIcon icon={faLocationDot} />,
     text: "Berlin, Germany",
-  },
-  {
-    icon: <FontAwesomeIcon icon={faPhone} />,
-    text: "+49 176 34691191",
-    href: "tel:4917634691191",
   },
   {
     icon: <FontAwesomeIcon icon={faLinkedin} />,
