@@ -1,15 +1,15 @@
 import React from "react";
 import Header from "./Header";
 import Experience from "./Experience";
-import Side from "./Side";
+import Sidebar from "./Sidebar";
 
-const CV = React.forwardRef((props, ref) => {
+const Resume = React.forwardRef((props, ref) => {
   return (
     <div ref={ref} className="container-md print-area p-0">
       <Header />
       <div className="container px-0">
         <div className="row gx-4 mt-2 mx-0">
-          <Side />
+          <Sidebar />
           <Experience />
         </div>
       </div>
@@ -17,4 +17,4 @@ const CV = React.forwardRef((props, ref) => {
   );
 });
 
-export default CV;
+export default Resume;

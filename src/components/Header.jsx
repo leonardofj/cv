@@ -9,14 +9,18 @@ export default function Welcome() {
       <div className="d-md-flex justify-content-between align-items-center pt-3 px-3 dark-blue">
         <div>
           <h1
-            className="text-uppercase lh-1 mb-0 light-text rounded-3"
+            className="name text-uppercase lh-1 mb-0 light-text rounded-3"
             style={{ fontSize: "2.9rem" }}
           >
             {fullName}
           </h1>
           <About />
         </div>
-        <img class="picture mb-3 rounded-3" src={ProfilePic} />
+        <img
+          className="picture mb-3 rounded-3"
+          src={ProfilePic}
+          alt="Profile picture"
+        />
       </div>
       <Contacts />
     </>
