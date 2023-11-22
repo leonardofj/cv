@@ -72,21 +72,23 @@ export const experience = [
     company: "delphai",
     location: "Berlin, Germany",
     points: [
-      "Designed, implemented and administrated MongoDB database for storing company data.",
-      "Implemented Django interface to perform CRUD operations on the database, allowing the analysts to interact with the data.",
-      "Handled ingestion and management of data from multiple sources.",
-      "Participated on the migration of the system to microservices architecture, conceptualizing and implementing backend services, collaborating with frontend developers and devops.",
-      "Collaborated with other team members on planing and building new features in accordance with clients requests.",
-      "Improved automation of data ingestion by implementing ETL pipelines for scraping, processing and saving news articles and job posts.",
+      "Designed and administered MongoDB database for efficient storage of company data.",
+      "Developed a Django interface enabling CRUD operations on the database, enhancing analysts' ability to interact with the data.",
+      "Handled ingestion and management of data from multiple sources and improved automation by implementing ETL pipelines for scraping, processing and saving data",
+      "Contributed to the migration to a microservices architecture, conceptualizing and implementing backend services using gRPC.",
+      "Collaborated on feature development, ensuring alignment with client requirements.",
+      "Engineered a robust RESTful public API using modern technologies such as FastAPI for enhanced functionality and performance.",
+      "Established a robust testing framework for the backend by implementing automated tests and adhering to TDD methodologies, ensuring the reliability and stability of the system.",
     ],
   },
   {
     title: "Freelance Developer and Translator",
     date: "Aug 2015 - May 2018",
     points: [
-      "Implemented a freelance business, negotiating and dealing with different clients.",
-      "Writing Python scripts to mine and parse different sets of unstructured data according to the clients' demands, designing databases and creating MySQL queries for different projects, formulating creative solutions to achieve their goals.",
-      "Translating between English and Portuguese on a great variety of topics, checking and proofreading with extra attention to details.",
+      "Established and operated a freelance business, negotiating and collaborating with diverse clients.",
+      "Developed Python scripts to extract and analyze diverse sets of unstructured data based on clients' requirements.",
+      "Architected databases and engineered MySQL queries for diverse projects.",
+      "Provided translation services between English and Portuguese across a diverse array of topics, meticulously proofreading with heightened attention to detail",
     ],
   },
   {
@@ -95,16 +97,16 @@ export const experience = [
     company: "Digesto Pesquisa e Banco de Dados",
     location: "São Paulo, Brazil",
     points: [
-      "Coding in Java and Python to mine and parse public data from federal state courts of Brazil, designing and populating a database of juridical decisions and creating a search engine for natural language using Solr.",
-      "Managing freelancers from different parts of the world to implement new features and new sources in the project.",
-      "Monitoring error and performance reports and developing improvement strategies for these.",
-      "Bespoke data acquisition and analysis of court case data for banks and large-scale companies.",
-      "Developed two methods for reading captchas from public legal data, reducing the data mining time from the top courts in Brazil by over 24,000 hours.",
+      "Implemented processes for the extraction and parsing of public data from Brazilian federal state courts, overseeing the design and population of a database containing juridical decisions.",
+      "Managed a global team of freelancers, coordinating the implementation of new features and additional data sources into the project.",
+      "Monitored error and performance reports, implementing improvement strategies.",
+      "Customized data acquisition and analysis of court case information tailored for clients such as banks and large-scale enterprises.",
+      "Implemented two captcha reading methods for extracting information from public legal data, resulting in a reduction in data mining time from Brazil's top courts by over 24,000 hours.",
     ],
   },
 ];
 
 export const others = [
-  "Took part on a college project teaching programming to children from disadvantaged schools and aiding to provide a basis in electronics to high school students.",
-  "Research intern on the development of a tetrapod robot for surgical applications.",
+  "Participated in a college project, teaching programming to children from disadvantaged schools and assisting in establishing a foundational understanding of electronics for high school students.",
+  "Contributed to the development of a tetrapod robot for surgical applications as a research intern.",
 ];

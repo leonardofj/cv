@@ -16,7 +16,11 @@ export default function Welcome() {
           </h1>
           <About />
         </div>
-        <img class="picture mb-3 rounded-3" src={ProfilePic} />
+        <img
+          className="picture mb-3 rounded-3 d-print-none"
+          src={ProfilePic}
+          alt="Profile picture"
+        />
       </div>
       <Contacts />
     </>

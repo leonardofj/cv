@@ -6,8 +6,13 @@
   --yellow: #f5af00;
 }
 
+/* Background colors */
 #root {
   background: var(--light-color);
+}
+
+#print-area {
+  background: white;
 }
 
 .dark {
@@ -22,6 +27,7 @@
   background: var(--dark-blue);
 }
 
+/* Text colors */
 .blue-text {
   color: var(--dark-blue);
 }
@@ -30,14 +36,16 @@
   color: var(--light-color);
 }
 
-.yellow {
+.yellow-text {
   color: var(--yellow);
 }
 
+/* Navbar styles */
 .navbar {
   background: var(--dark-blue);
 }
 
+/* Link styles */
 .link {
   text-decoration: none;
 }
@@ -46,6 +54,7 @@
   text-decoration: underline;
 }
 
+/* Button styles */
 button {
   background: var(--yellow);
   padding: 8px 18px 8px 18px;
@@ -58,27 +67,32 @@ button:hover {
   color: var(--yellow);
 }
 
+/* Picture styles */
 .picture {
   width: 150px;
   border: 3px solid var(--yellow);
 }
 
-.print-area {
-  background: white;
-}
-
 @media print {
-  .print-area {
-    width: 830px !important;
+  /* Print page layout adjustments */
+  @page {
+    size: A4;
+    margin: 0;
   }
+
+  #print-area {
+    max-width: 97%;
+    zoom: 93%;
+  }
+
+  /* Print text color adjustments */
   .blue-text,
   .light-text,
-  .yellow {
+  .yellow-text {
     color: black !important;
   }
-  .picture {
-    display: none;
-  }
+
+  /* Print background adjustments */
   .light {
     border: 1px solid black;
     background: white;
@@ -91,6 +105,8 @@ button:hover {
   .dark-blue {
     background: white;
   }
+
+  /* Print badge adjustments */
   .badge {
     padding: 2px 4px !important;
     outline: 1px solid gray;
