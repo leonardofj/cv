@@ -74,6 +74,7 @@ button:hover {
 }
 
 @media print {
+  /* Print page layout adjustments */
   @page {
     size: A4;
     margin: 0;
