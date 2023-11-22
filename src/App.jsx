@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <>
-      <div className="container-md navbar p-1">
+      <div className="container-sm navbar p-1">
         <button
           className="rounded-2 ms-2"
           onClick={handlePrint}

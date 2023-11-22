@@ -17,7 +17,7 @@ export default function Welcome() {
           <About />
         </div>
         <img
-          className="picture mb-3 rounded-3"
+          className="picture mb-3 rounded-3 d-print-none"
           src={ProfilePic}
           alt="Profile picture"
         />

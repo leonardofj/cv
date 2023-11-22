@@ -5,10 +5,10 @@ import Sidebar from "./Sidebar";
 
 const Resume = React.forwardRef((props, ref) => {
   return (
-    <div ref={ref} className="container-md print-area p-0">
+    <div ref={ref} id="print-area" className="container-sm p-0">
       <Header />
-      <div className="container px-0">
-        <div className="row gx-4 mt-2 mx-0">
+      <div className="container-fluid px-0">
+        <div className="row gx-3 mt-2 mx-0">
           <Sidebar />
           <Experience />
         </div>

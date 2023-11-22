@@ -11,7 +11,7 @@
   background: var(--light-color);
 }
 
-.print-area {
+#print-area {
   background: white;
 }
 
@@ -74,8 +74,14 @@ button:hover {
 }
 
 @media print {
-  .print-area {
-    width: 830px !important;
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  #print-area {
+    max-width: 97%;
+    zoom: 93%;
   }
 
   /* Print text color adjustments */
@@ -83,11 +89,6 @@ button:hover {
   .light-text,
   .yellow-text {
     color: black !important;
-  }
-
-  /* Print picture adjustments */
-  .picture {
-    display: none;
   }
 
   /* Print background adjustments */
